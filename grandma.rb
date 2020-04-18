@@ -12,16 +12,16 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma(phrase).upcase
-  if phrase == "i love you grandma!".upcase
-    'I love you too pumpkin!'.upcase
+def speak_to_grandma(phrase)
+  if phrase == "I LOVE YOU GRANDMA!"
+    'I LOVE YOU TOO PUMPKIN!'
   elsif phrase == "Hi Nana, how are you?"
-    puts "huh?! Speak up, sonny!".upcase
+    'HUH?! SPEAK UP, SONNY!'
   elsif phrase == "Hi!"
-    puts "huh?! Speak up, sonny!".upcase
-  elsif phrase == "What did you eat today?".upcase
-    puts "no, not since 1938!".upcase
-  elsif phrase == "What".upcase
-    'no, not since 1938!'
+    'HUH?! SPEAK UP, SONNY!'
+  elsif phrase == "WHAT DID YOU EAT TODAY?"
+    'NO, NOT SINCE 1938!'
+  elsif phrase == "WHAT?"
+    'NO, NOT SINCE 1938!'
   end
 end
